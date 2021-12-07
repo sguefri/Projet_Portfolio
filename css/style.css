@@ -4,7 +4,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font: 1.6rem "Roboto" ,sans-serif;
+    font: 1.6rem sans-serif;
     margin: 0;
     line-height: 1.6;
 }
@@ -12,4 +12,77 @@ h1,h2,h3,p,figure,ul,ol{
     margin: 0;
     padding: 0;
     font-weight: normal;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* theme */
+:root{
+    --color-default: rgb(0, 0, 0);
+    --color-header-text: #fff;
+    --color-primary: #ffffff;
+}
+
+header{
+    background-color: var(--color-default);
+    line-height: 4.0rem;
+}
+
+header > h1{
+    color: var(--color-header-text);
+    text-align: center;
+    font-weight: bold;
+    line-height: 6.5rem;
+    padding-top: 1rem;
+
+}
+
+header > h1::before{
+    content: url(../asset/logo.png);
+    vertical-align: -1rem;
+    margin-right: .5rem;
+}
+main, footer{
+    max-width: 100.0rem;
+    border: solid .1rem transparent;
+    padding: 1.0rem;
+    margin: 5.0rem auto 1.0rem;
+    box-shadow: 0 0 3.0rem rgb(161, 159, 159);
+}
+
+nav{
+    text-align: center;
+    background-color: var(--color-primary);
+    line-height: 4rem;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+section h2{
+    border: solid black .1rem;
+    margin: 1rem;
+}
+
+p{
+    margin:  1.3rem;
+}
+
+section h2{
+    background-color: black;
+    color: #fff;
+}
+
+section ul li{
+    display: inline-block;
+}
+footer *{
+    text-align: center;
 }
