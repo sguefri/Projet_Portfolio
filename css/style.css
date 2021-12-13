@@ -54,19 +54,22 @@ main, footer{
     border: solid .1rem transparent;
     padding: 1.0rem;
     margin: 5.0rem auto 1.0rem;
-    box-shadow: 0 0 3.0rem rgb(161, 159, 159);
+    box-shadow: 0 0 3.0rem rgb(159, 159, 161);
 }
 
 nav{
     text-align: center;
-    background-color: var(--color-primary);
     line-height: 1rem;
 }
 nav ul li{
     display: inline-block;
     padding: 1rem;
-    border: solid .1rem transparent;
-    box-shadow: 0 0 3.0rem rgb(161, 159, 159);
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav ul{
+    font-size: 0rem;
+    background-color: rgb(204, 204, 204);
 }
 section h2{
     border: solid black .1rem;
@@ -87,7 +90,7 @@ section ul li{
 }
 footer *{
     text-align: center;
-
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 3%;
     margin-left: 30%;
@@ -120,3 +123,4 @@ footer *{
         min-height: 20vh; /* hauteur 1/20 d'écran */
         align-items: center;
 }
+
