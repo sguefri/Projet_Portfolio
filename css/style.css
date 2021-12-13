@@ -60,11 +60,13 @@ main, footer{
 nav{
     text-align: center;
     background-color: var(--color-primary);
-    line-height: 4rem;
+    line-height: 1rem;
 }
 nav ul li{
     display: inline-block;
     padding: 1rem;
+    border: solid .1rem transparent;
+    box-shadow: 0 0 3.0rem rgb(161, 159, 159);
 }
 section h2{
     border: solid black .1rem;
@@ -85,4 +87,36 @@ section ul li{
 }
 footer *{
     text-align: center;
+
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* responsive*/
+@media screen and (max-width:70.0rem){
+    main,footer{
+        margin: .1rem;
+    }
+    header h1{
+        font-size: x-large;
+    }
+    section h2{
+        font-size: large;
+    }
+    main nav ul{
+        margin-left: 1px;
+    }
+    ul:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 10px;
+    }
+    section p {
+        text-align: start;
+    }
+    footer{
+        min-height: 20vh; /* hauteur 1/20 d'écran */
+        align-items: center;
 }
