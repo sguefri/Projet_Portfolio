@@ -4,7 +4,7 @@
 
 Ce portfolio est un exemple de modèle de structuration : html/css.
 
-[Afficher le portoflio](https://github.com/sguefri/Projet_Portfolio.git) "Voir le portfolio")
+[Afficher le portoflio](https://sguefri.github.io/Projet_Portfolio/ "Voir le portfolio")
 
 
 * Navigation
