@@ -19,7 +19,5 @@ Ce portfolio est un exemple de modèle de structuration : html/css.
 * favicon/
 * .gitignore
 
-* [E-mail](guefrisofiane@gmail.com)
-
 &copy; Sofiane GUEFRI - Portfolio - 2021
 
